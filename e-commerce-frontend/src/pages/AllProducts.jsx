@@ -1,7 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { getAllProducts } from "../lib/api";
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useNavigate } from "react-router"; // ✅ Fix for navigation
 
